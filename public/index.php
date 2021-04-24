@@ -1,15 +1,9 @@
-<?php include("dbconnect.php"); ?>
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>The Advice Shop - Home</title>
-    <link href="public/styles/mainstyles.css" rel="stylesheet" type="text/css" media="screen">
-</head>
 
-<body>
-<?php include("inc_header.php");
-include("inc_nav.php"); ?>
+<?php require_once ('../private/initialize.php'); ?>
+<?php $page_title = 'Advisors'; ?>
+<?php include(SHARED_PATH . '/head.php'); ?>
+<?php include(SHARED_PATH . '/inc_header.php'); ?>
+<?php include(SHARED_PATH . '/inc_nav.php'); ?>
 <section id="content">
     <h2>Welcome to The Advice Shop </h2>
 
@@ -24,7 +18,7 @@ include("inc_nav.php"); ?>
     <p><a href="subscribe.php">Subscribe now to our professional advice service.</a></p>
 
     <h3>Services</h3>
-    <p><img src="public/images/womanHeadset.jpg" alt="" width="310" height="200"
+    <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
             class="rightImage"/>For all advice related to:</p>
     <ul>
         <li>Learning</li>
@@ -35,6 +29,4 @@ include("inc_nav.php"); ?>
     </ul>
 
 </section>
-<?php include( "inc_footer.php" ); ?>
-</body>
-</html>
+<?php include(SHARED_PATH . '/inc_footer.php'); ?>

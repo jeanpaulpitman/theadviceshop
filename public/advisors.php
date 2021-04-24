@@ -1,5 +1,6 @@
 
 <?php require_once ('../private/initialize.php'); ?>
+<?php $page_title = 'Advisors'; ?>
 <?php include(SHARED_PATH . '/head.php'); ?>
 <?php include(SHARED_PATH . '/inc_header.php'); ?>
 <?php include(SHARED_PATH . '/inc_nav.php'); ?>
