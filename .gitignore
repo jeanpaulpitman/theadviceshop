@@ -1,4 +1,4 @@
 .idea
-db/test.sqlite
+private/db/test.sqlite
 other
 node_modules/

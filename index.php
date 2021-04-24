@@ -1,15 +1,15 @@
-<?php include( "dbconnect.php" ); ?>
+<?php include("dbconnect.php"); ?>
 <!doctype html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>The Advice Shop - Home</title>
-    <link href="styles/mainstyles.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="public/styles/mainstyles.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 
 <body>
-<?php include( "inc_header.php" );
-include( "inc_nav.php" ); ?>
+<?php include("inc_header.php");
+include("inc_nav.php"); ?>
 <section id="content">
     <h2>Welcome to The Advice Shop </h2>
 
@@ -24,8 +24,8 @@ include( "inc_nav.php" ); ?>
     <p><a href="subscribe.php">Subscribe now to our professional advice service.</a></p>
 
     <h3>Services</h3>
-    <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
-                                      class="rightImage"/>For all advice related to:</p>
+    <p><img src="public/images/womanHeadset.jpg" alt="" width="310" height="200"
+            class="rightImage"/>For all advice related to:</p>
     <ul>
         <li>Learning</li>
         <li>Relationships</li>

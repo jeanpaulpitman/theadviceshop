@@ -1,15 +1,8 @@
-<?php require("dbconnect.php"); ?>
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>The Advice Shop - Home</title>
-<link href="styles/mainstyles.css" rel="stylesheet" type="text/css" media="screen">
-</head>
 
-<body>
-<?php include("inc_header.php"); ?>
-<?php include("inc_nav.php"); ?>
+<?php require_once ('../private/initialize.php'); ?>
+<?php include(SHARED_PATH . '/head.php'); ?>
+<?php include(SHARED_PATH . '/inc_header.php'); ?>
+<?php include(SHARED_PATH . '/inc_nav.php'); ?>
 <h2>Advisors</h2>
 <div id="content">
   <p>You want only the very best advice, so we have only the best advisors...</p>
@@ -32,6 +25,5 @@
         <blockquote>Stop. Collaborate and listen.</blockquote>
     </div>
 </section>
-<?php include("inc_footer.php"); ?>
-</body>
-</html>
+<?php include(SHARED_PATH . '/inc_footer.php'); ?>
+

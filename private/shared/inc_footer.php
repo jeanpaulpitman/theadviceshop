@@ -13,3 +13,5 @@ else {
 <?php if (isset($dbh)) {
     $dbh = null;
 } ?>
+</body>
+</html>
