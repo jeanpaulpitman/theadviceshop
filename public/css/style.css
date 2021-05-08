@@ -122,6 +122,11 @@ blockquote {
 footer .user {
   float: right; }
 
+.lean {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
 /* Glyphicons from Bootstrap */
 @font-face {
   font-family: 'Glyphicons Halflings';

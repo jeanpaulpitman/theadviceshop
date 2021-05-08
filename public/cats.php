@@ -26,18 +26,18 @@ $cats = array (
     ?>
     <div id="first">
         <h2>Carter</h2>
-        <img class="img-circle" src="images/carter.jpg" height="250" alt="Carter">
+        <img class="img-circle lean" src="images/carter.jpg" height="250" alt="Carter">
         <blockquote>meow meow</blockquote>
     </div>
     <div id="second">
-        <h2>Mittens</h2>
+        <h2 class="lean">Mittens</h2>
         <img class="img-circle" src="images/mittens.jpg" height="250" alt="Dalai Lama">
         <blockquote>His Royal Floofyness </blockquote>
     </div>
     <div id="third">
         <h2>Maximus</h2>
         <img class="img-circle" src="images/maximus.jpg" height="250" alt="Vanilla Ice">
-        <blockquote>Maximus thinks he is better than you.</blockquote>
+        <blockquote class="lean">Maximus thinks he is better than you.</blockquote>
     </div>
 </section>
 <?php include(SHARED_PATH . '/inc_footer.php'); ?>
