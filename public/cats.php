@@ -28,16 +28,19 @@ $cats = array (
         <h2>Carter</h2>
         <img class="img-circle lean" src="images/carter.jpg" height="250" alt="Carter">
         <blockquote>meow meow</blockquote>
+        <button class="button">Click Me</button>
     </div>
     <div id="second">
         <h2 class="lean">Mittens</h2>
         <img class="img-circle" src="images/mittens.jpg" height="250" alt="Dalai Lama">
         <blockquote>His Royal Floofyness </blockquote>
+        <button class="inverse-button">Click Me</button>
     </div>
     <div id="third">
         <h2>Maximus</h2>
         <img class="img-circle" src="images/maximus.jpg" height="250" alt="Vanilla Ice">
         <blockquote class="lean">Maximus thinks he is better than you.</blockquote>
+        <button class="button">Click Me</button>
     </div>
 </section>
 <?php include(SHARED_PATH . '/inc_footer.php'); ?>
