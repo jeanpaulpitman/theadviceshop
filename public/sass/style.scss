@@ -1,38 +1,29 @@
 @import 'base';
 
-//main {
-//  max-width: $content-width;
-//  margin: 0 auto;
-//  color: $font-color;
-//  display: flex;
-//  h1 {
-//    font-size: $header-size;
-//  }
-//}
 
-/* CSS Document */
+
+/* SCSS Document */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  min-width: 640px;
+  min-width: $body-min-width;
   margin: 0;
-  /*font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
-  font-family: 'Open Sans', sans-serif;
+  font-family: $body-font-family;
+  h2 {
+    margin-left: 1em;
+  }
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-family: $headings-font-family;
 }
 
-body h2 {
-  margin-left: 1em;
-}
 
 #content {
-  width: 75%;
-  min-width: 540px;
-  max-width: 800px;
+  width: $content-width;
+  min-width: $content-min-width;
+  max-width: $content-max-width;
   margin-left: 5em;
   margin-right: auto;
   margin-bottom: 5em;
@@ -42,48 +33,45 @@ body h2 {
 
 nav {
   clear: both;
-  background-color: #719B3F;
+  background-color: $menu-background-color;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.2em;
+    width: 18%;
+    /*	height: 2em;*/
+    border: thin solid #000000;
+    border-radius: 10px;
+    background-color: #565656;
+  }
+  ul li:hover {
+    background: $menu-background-color-hover;
+  }
+  ul li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: $menu-font-color;
+    font-family: $headings-font-family;
+  }
+  nav ul li.current {
+    background-color: $menu-background-color-current;
+  }
 }
 
-nav ul li {
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 0.2em;
-  width: 18%;
-  /*	height: 2em;*/
-  border: thin solid #000000;
-  border-radius: 10px;
-  background-color: #565656;
-}
-
-nav ul li:hover {
-  background: #A8CFB1
-}
-
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #FFFFFF;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-}
-
-nav ul li.current {
-  background-color: #999;
-}
 
 .rightImage {
   float: right;
 }
 
 footer, header#pageHeader {
-  background-color: #565656;
-  color: #FFFFFF;
+  background-color: $footer-background-color;
+  color: $footer-font-color;
   text-align: left;
   padding-top: 1.5em;
   padding-right: 1.5em;
@@ -98,6 +86,12 @@ footer {
   bottom: 0;
   display: block;
   width: 100%;
+  a {
+    color: aliceblue;
+  }
+  .copyright {
+    float: left;
+  }
 }
 
 header#pageHeader a {
@@ -163,14 +157,6 @@ blockquote {
 
 footer .user {
   float: right;
-}
-
-footer a {
-  color: aliceblue;
-}
-
-footer .copyright {
-  float: left;
 }
 
 /* Glyphicons from Bootstrap */

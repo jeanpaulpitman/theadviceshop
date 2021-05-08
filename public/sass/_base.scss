@@ -1,5 +1,26 @@
 // Variables
 
-$header-size: 2em;
-$font-color: #343434;
-$content-width: 1200px;
+// Headings
+$headings-font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+// Menu
+$menu-font-color: #ffffff;
+$menu-font-size: 2em;
+$menu-background-color: #719B3F;
+$menu-background-color-hover: #A8CFB1;
+$menu-background-color-current: #999;
+
+// Body
+$body-font-color: #343434;
+$body-font-size: 1em;
+$body-min-width: 640px;
+$body-font-family: 'Open Sans', sans-serif;
+
+// Content
+$content-min-width: 540px;
+$content-max-width: 800px;
+$content-width: 75%;
+
+// Footer
+$footer-background-color: #565656;
+$footer-font-color: #FFFFFF;
