@@ -7,7 +7,7 @@ if(!isset($page_title)) { $page_title = 'Home';}
 <head>
     <title>The Advice Shop - <?php echo $page_title; ?></title>
     <meta charset="utf-8">
-    <link rel="stylesheet" media="all" href="<?php echo url_for('/styles/mainstyles.css'); ?>" />
+    <link rel="stylesheet" media="all" href="<?php echo url_for('/css/style.min.css'); ?>" />
 </head>
 
 <body>
